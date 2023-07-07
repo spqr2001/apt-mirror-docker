@@ -17,4 +17,4 @@ services:
         volumes:
             - "./mirror/mirror:/mirror:ro"
         ports:
-            - "8080:80"
+            - "80:80"

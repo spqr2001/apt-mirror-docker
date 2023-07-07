@@ -15,16 +15,16 @@ set http_proxy        127.0.0.1:3128
 set proxy_user        user
 set proxy_password    password
 
-deb http://archive.ubuntu.com/ubuntu bionic main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu bionic-security main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu bionic-updates main restricted universe multiverse
-deb http://archive.ubuntu.com/ubuntu bionic-backports main restricted universe multiverse
-clean http://archive.ubuntu.com/ubuntu
+deb http://de.archive.ubuntu.com/ubuntu jammy main restricted universe multiverse
+deb http://de.archive.ubuntu.com/ubuntu jammy-security main restricted universe multiverse
+deb http://de.archive.ubuntu.com/ubuntu jammy-updates main restricted universe multiverse
+deb http://de.archive.ubuntu.com/ubuntu jammy-backports main restricted universe multiverse
+clean http://de.archive.ubuntu.com/ubuntu
 
 # ==
 # Example of other repos
 # ==
 
-# deb http://apt.postgresql.org/pub/repos/apt/ bionic-pgdg main
-# deb https://download.docker.com/linux/ubuntu bionic stable
-# deb https://apt.kubernetes.io kubernetes-bionic main
+# deb http://apt.postgresql.org/pub/repos/apt/ jammy-pgdg main
+# deb https://download.docker.com/linux/ubuntu jammy stable
+# deb https://apt.kubernetes.io kubernetes-jammy main
